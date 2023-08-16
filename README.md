@@ -14,7 +14,7 @@ The serverless nature of the platform naturally limits (does not eliminate) the 
 - Exfiltration  -->
 
 ## Phishing
-We've all been trained to come up with `Str0n6P@ssw0rds123!`. Encrypted with modern super-sophisticated algorithms, even the most powerful machines would take many decades to crack these. But, all that doesn't matter if you use that same strong password for both your netflix and your bank account, and then give that password away.   
+We've all been trained to come up with `Str0n6P@ssw0rds123!`. Encrypted with modern super-sophisticated algorithms, even the most powerful machines would take many decades to crack these. But, all that doesn't matter if you use that same strong password for both your Netflix and your bank account, and then give that password away.   
 
 For most phishing scams, traffic usually comes from email clients. Users are prompted to log in to view a file that was shared with them, reset a password or confirm some info. The URL will contain some kind of convincing subdomain or a bunch of encoded garbage query strings to make it look legit. 
 ```

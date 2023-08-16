@@ -76,7 +76,7 @@ Another very common scam we see targets Adobe's document cloud.
 While Adobe and Netfix have been most common as of late, we've seen almost identical backend code for various frontends targeting America First Credit Union, CapitalOne, DHL, Netflix and others. 
 #### The code
 
-Implementation here is a more sophisticated full stack MVC site express with a nicely organized file structure.
+Implementation here is a more sophisticated full stack express site built using MVC pattern and a nicely organized file structure.
 
 <p align="center">
     <img src="./images/netflix_files.png" width="150px"></img>

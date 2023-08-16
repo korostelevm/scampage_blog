@@ -40,7 +40,7 @@ By far the most common and probably the most crudely implemented phishing scam w
 </p>
 
 #### The code 
-This one is a simple hello-world express.js site serving two static files `index.html` and `login2.html`. The file however contains single line of code. 
+This one is a simple hello-world express.js site serving two static files `index.html` and `login2.html`. The files each contain a single line of code. 
 
 ```html
 <!-- public/index.html -->

@@ -88,7 +88,7 @@ Mimicking the authentic login sequence, the frontend is separated into multiple 
     <img src="./images/netflix_frontend.png" width="650px"></img>
 </p>
 
-All the links to the Privacy Policy, Help Center and TOS still work and point to the real targets. The big difference is the form post points to `/auth/login`.
+All the links to the Privacy Policy, Help Center and TOS still work and point to the real targets. The big difference is the form post on the scam page points to `/auth/login`.
 
 ### What happens to your credentials 
 

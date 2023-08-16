@@ -282,7 +282,7 @@ No luck for `scampages.html` on the Wayback Machine. But the root domain:
     <img src="./images/pizza.png" width="650px"></img>
 </p>
 
-Pizza. It now made sense that at one point Pizza Rosa in the German countryside, was at one point victim of an some injection attack. `SHAKESWORDE` or somebody exploited their server and put that content there. 
+Pizza. It now made sense that Pizza Rosa in the German countryside was once a victim of an injection attack. `SHAKESWORDE` or somebody exploited their server and put that content there. 
 
 I eventually found listings on GitHub under the [scampage topic](https://github.com/topics/scampage).
 

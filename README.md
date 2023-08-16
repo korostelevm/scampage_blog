@@ -107,7 +107,7 @@ Before looking at that, suspiciously authored by a git user with the name `Disne
 app.use(antibot);
 ```
 
-There are good guys crawling the web looking for malicious sites like this one and the scammers don't want to be found. While this attacker is not masking their code to subvert static analysis, they are are trying to protect the scam site against dynamic scans:
+There are good guys crawling the web looking for malicious sites like this. The scammers don't want to be found. While this attacker is not masking their code to subvert static analysis, they are are trying to protect the scam site against dynamic scans:
 
 ```js
 // antibot.js

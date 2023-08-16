@@ -294,6 +294,9 @@ I reported these. Hopefully GitHub takes them down quickly, but unfortunately un
 
 While no longer hosted at the `rose-lauchheim.de` domain, Pizzeria Rose seems to still be operational in Lauchheim, Germany. According to their google reviews, their pizza and pasta are delicious. The website button directs users to their [Facebook](https://www.facebook.com/profile.php?id=100063594878836).
 
+<p align="center"> 
+    <img src="./images/food.png" width="650px"></img>
+</p>
 
 
 <details>

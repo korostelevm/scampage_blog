@@ -1,8 +1,10 @@
+# How to build a Phishing Scampage
+
 There is a lot of dirty things you can do on the internet. There is disinformation, pirated movies, scams and cyber bullies, there is all you can eat pornography, spyware and even dark web assassins.
 
 As a hosting provider, we do what is probably the dirtiest internet thing of all - we run code sent to us by total strangers.
 
-At cyclic.sh, 99.9% of our users are awesome curious engineers, talented developers and entrepreneurs. Unfortunately a few of you (and you know who you are) (... and we know who you are ...), are not so awesome. In this post we showcase some of the common scams that those not-so-awesome few have tried to get away with.
+At cyclic.sh, 99.9% of our users are awesome curious engineers, talented developers and entrepreneurs. Unfortunately a few of you (and you know who you are) (and we know who you are) are not so awesome. In this post we showcase some of the common scams that those not-so-awesome few have tried to get away with.
 
 The serverless nature of the platform naturally limits (does not eliminate) the capacity for many types of malicious behavior like vulnerability scanning, crypto mining,  brute force, etc. Unfortunately executing phishing attacks is still very much possible.  
 
@@ -136,6 +138,8 @@ The files `../config/botUA`, `../config/botRef`, and `../config/botIP` contain h
 - referrer regex strings like `^security`, `^safebrowsing`, `^malwarebytes`
 
 The middleware routes any matching requests to an innocuous 404 Not Found page. 
+
+#### `controller.js`
 
 When the request is determined to be not a bot it is handled by the `loginPost` controller:
 

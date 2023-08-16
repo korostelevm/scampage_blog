@@ -62,7 +62,7 @@ This code obfuscated, encoded to hide its contents - in case the we or another h
 
 The login takes place in a sequence of prompts, just like the real thing. The username is captured in `index.html`, the user is then redirected to `login2.html` which prompts the user for their password. On submit, the credential pair is ajax posted to a PHP url. 
 
-In all instances of this scam, the target url pointed to a `.php` file on what looked to be totally legitimate host domains who had become victims of a remote file inclusion (RFI) attack. Older misconfigured phpMyAdmin installations were vulnerable to XSS attacks, SQL injection, and in many cases had their default password left on. We've seen these servers to be generally hosting legitimate small businesses like dentist practices, restaurants, etc. 
+In all instances of this scam, the target url pointed to a `.php` file on what looked to be totally legitimate host domains who had become victims of a remote file inclusion (RFI) attack. Older misconfigured phpMyAdmin installations were vulnerable to XSS attacks, SQL injection, and in many cases had their default password left on. These vulnerable servers tend to be hosting legitimate small business websites like dental practices, restaurants or other service providers.
 
 In this instance `finish.php` was likely injected into the host maliciously by exploiting one of those PHP vulnerability. These `.php` files simply use php's  `mail` function to then forward the credentials to some other email set up by the attackers. 
 

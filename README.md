@@ -55,7 +55,7 @@ This code obfuscated, encoded to hide its contents - in case the we or another h
 
 
 <p align="center">
-    <img src="./scammers/ms3.png" width="650px"></img>
+    <img src="./images/ms3.png" width="650px"></img>
 </p>
 
 The in the first file, a username is captured. The user is then redirected to the second which prompts the user for their password. On submit, the credential pair is ajax posted to another url. 
@@ -68,7 +68,7 @@ In this instance `finish.php` was likely injected into the host maliciously by e
 Another very common scam targets Adobe's document cloud.
 
 <p align="center">
-    <img src="./scammers/adobe.png" width="650px" ></img>
+    <img src="./images/adobe.png" width="650px" ></img>
 
 
 While Adobe and Netfix have been most common as of late, we've seen almost identical backend code for various frontends targeting America First Credit Union, CapitalOne, DHL, Netflix and others. 
@@ -77,13 +77,13 @@ While Adobe and Netfix have been most common as of late, we've seen almost ident
 Implementation here is a more sophisticated full stack MVC site express with a nicely organized file structure.
 
 <p align="center">
-    <img src="./scammers/netflix_files.png" width="150px"></img>
+    <img src="./images/netflix_files.png" width="150px"></img>
 </p>
 
 Mimicking the authentic login sequence, the frontend is separated into multiple `.edge` files rendered with the [express-edge](https://github.com/ecrmnn/express-edge) view engine. The CSS and HTML have been ripped off from the real login page:
 
 <p align="center">
-    <img src="./scammers/netflix_frontend.png" width="650px"></img>
+    <img src="./images/netflix_frontend.png" width="650px"></img>
 </p>
 
 All the links to the Privacy Policy, Help Center and TOS still work and point to the real targets. The big difference is the form post points to `/auth/login`.
@@ -95,7 +95,7 @@ All the links to the Privacy Policy, Help Center and TOS still work and point to
 The `/auth/login` route is implemented in a controller. 
 
 <p align="center">
-    <img src="./scammers/netflix_appjs.png" width="650px"></img>
+    <img src="./images/netflix_appjs.png" width="650px"></img>
 </p>
 
 Before looking at that, suspiciously authored by a git user with the name `Disney Plus`, there is something interesting in the  `app.js` file.
@@ -261,7 +261,7 @@ What is `SHAKESWORDE`? Is it some kind of cool 1337 haxor name?
 So I googled it - 
 
 <p align="center">
-    <img src="./scammers/shakesworde.png" width="650px"></img>
+    <img src="./images/shakesworde.png" width="650px"></img>
 </p>
 
 ```
@@ -275,17 +275,17 @@ Google's result seemed to find a site that lists some names of banks. Looks rele
 No luck for `scampages.html` on the Wayback Machine. But the root domain: 
 
 <p align="center">
-    <img src="./scammers/pizza.png" width="650px"></img>
+    <img src="./images/pizza.png" width="650px"></img>
 </p>
 
-Pizza. It now made sense that at one point Pizza Rosa in the German countryside, was at one point victim of an RFI attack. `SHAKESWORDE` or somebody exploited their server and put that content there. 
+Pizza. It now made sense that at one point Pizza Rosa in the German countryside, was at one point victim of an some injection attack. `SHAKESWORDE` or somebody exploited their server and put that content there. 
 
 I eventually found listings on GitHub under the [scampage topic](https://github.com/topics/scampage).
 
 There were multiple repositories listing scampages for different targets with anti-bot features just like in the Netflix case above. 
 
 <p align="center">
-    <img src="./scammers/scampage_github.png" width="650px"></img>
+    <img src="./images/scampage_github.png" width="650px"></img>
 </p>
 
 I reported these. Hopefully GitHub takes them down quickly, but unfortunately until problems with disposable accounts are mitigated, they will probably be back. The mystery led to a dead end. 
@@ -300,26 +300,26 @@ While no longer hosted at the `rose-lauchheim.de` domain, Pizzeria Rose seems to
     <summary>
     <h2>Scampage wall of shame</h2>
         <!-- ## Scampage wall of shame: -->
-        <img src="./scammers/afcu.png" width="50px"></img>
-        <img src="./scammers/capitalone.png" width="50px"></img>
-        <img src="./scammers/dhl.png" width="50px"></img>
-        <img src="./scammers/australia.png" width="50px"></img>
-        <img src="./scammers/usps.png" width="50px"></img>  
+        <img src="./images/afcu.png" width="50px"></img>
+        <img src="./images/capitalone.png" width="50px"></img>
+        <img src="./images/dhl.png" width="50px"></img>
+        <img src="./images/australia.png" width="50px"></img>
+        <img src="./images/usps.png" width="50px"></img>  
         <strong>[...]</strong>
     </summary>
     <p align="center">
-        <img src="./scammers/afcu.png" width="550px"></img>
-        <img src="./scammers/capitalone.png" width="550px"></img>
-        <img src="./scammers/dhl.png" width="550px"></img>
-        <img src="./scammers/australia.png" width="550px"></img>
-        <img src="./scammers/usps.png" width="550px"></img>
-        <img src="./scammers/onedrive.png" width="550px"></img>
-        <img src="./scammers/we_transfer.png" width="550px"></img>
-        <img src="./scammers/capitalone.png" width="550px"></img>
-        <img src="./scammers/binance.png" width="550px"></img>
-        <img src="./scammers/ms2.png" width="550px"></img>
-        <img src="./scammers/netflix.png" width="550px"></img>
-        <img src="./scammers/south_africa_bank.png" width="550px"></img>
+        <img src="./images/afcu.png" width="550px"></img>
+        <img src="./images/capitalone.png" width="550px"></img>
+        <img src="./images/dhl.png" width="550px"></img>
+        <img src="./images/australia.png" width="550px"></img>
+        <img src="./images/usps.png" width="550px"></img>
+        <img src="./images/onedrive.png" width="550px"></img>
+        <img src="./images/we_transfer.png" width="550px"></img>
+        <img src="./images/capitalone.png" width="550px"></img>
+        <img src="./images/binance.png" width="550px"></img>
+        <img src="./images/ms2.png" width="550px"></img>
+        <img src="./images/netflix.png" width="550px"></img>
+        <img src="./images/south_africa_bank.png" width="550px"></img>
     </p>
 </details>
 </p>

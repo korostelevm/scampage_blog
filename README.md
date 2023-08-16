@@ -294,7 +294,9 @@ There were multiple repositories listing scampages for different targets with an
     <img src="./images/scampage_github.png" width="650px"></img>
 </p>
 
-I reported these. Hopefully GitHub takes them down quickly, but unfortunately until problems with disposable accounts are mitigated, they will probably be back. The mystery led to a dead end. 
+I reported these. Hopefully GitHub takes them down quickly, but unfortunately until problems with disposable accounts are mitigated, they will probably be back. 
+
+With that and after the discovery of the vicious attack on pizza, the mystery led to a dead end. 
 
 ## The good news
 

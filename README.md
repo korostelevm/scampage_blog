@@ -64,10 +64,10 @@ The login takes place in a sequence of prompts, just like the real thing. The us
 
 In all instances of this scam, the target url pointed to a `.php` file on what looked to be totally legitimate host domains who had become victims of a remote file inclusion (RFI) attack. Older misconfigured phpMyAdmin installations were vulnerable to XSS attacks, SQL injection, and in many cases had their default password left on. These vulnerable servers tend to be hosting legitimate small business websites like dental practices, restaurants or other service providers.
 
-In this instance `finish.php` was likely injected into the host maliciously by exploiting one of those PHP vulnerability. These `.php` files simply use php's  `mail` function to then forward the credentials to some other email set up by the attackers. 
+In this instance `finish.php` was likely injected into the host maliciously by exploiting one of those PHP vulnerabilities. These `.php` files simply use php's  `mail` function to then forward the credentials to some email set up by the attackers. 
 
 ### Case Study - "Adobe/Netflix Scam"
-Another very common scam targets Adobe's document cloud.
+Another very common scam we see targets Adobe's document cloud.
 
 <p align="center">
     <img src="./images/adobe.png" width="650px" ></img>

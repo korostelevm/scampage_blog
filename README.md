@@ -300,7 +300,7 @@ With that, not long after the discovery of the vicious attack on pizza - the mys
 
 ## The good news
 
-While no longer hosted at the `rose-lauchheim.de` domain, Pizzeria Rose seems to still be operational in Lauchheim, Germany. According to their google reviews, their pizza and pasta are delicious. The website button directs users to their [Facebook](https://www.facebook.com/profile.php?id=100063594878836).
+While no longer hosted at the `rose-lauchheim.de` domain, Pizzeria Rose seems to still be operational in Lauchheim, Germany. According to their [google reviews](https://www.google.com/maps/place/Pizzeria+Rose%2FEiskaffee/@48.8721486,10.2482284,15z/data=!4m16!1m9!3m8!1s0x47991f83d8fbf995:0x507a55878bfb43cf!2sPizzeria+Rose%2FEiskaffee!8m2!3d48.8721486!4d10.2482284!9m1!1b1!16s%2Fg%2F1tp0cmnw!3m5!1s0x47991f83d8fbf995:0x507a55878bfb43cf!8m2!3d48.8721486!4d10.2482284!16s%2Fg%2F1tp0cmnw?entry=ttu), their pizza and pasta are delicious. The website button directs users to their [Facebook](https://www.facebook.com/profile.php?id=100063594878836).
 
 <p align="center"> 
     <img src="./images/food.png" width="650px"></img>

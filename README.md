@@ -313,7 +313,7 @@ The unexpected association with pizza might be kind of funny, but it underscores
 If you're a business owner, or interested in learning more about how to protect yourself or your organization from cyber threats, there are some excellent resources available on vulnerabilities, attacks, and mitigation tactics:
 
 - **Snyk Vulnerability Database** - [Link](https://security.snyk.io/ )
-- **MITRE ATT&CK knowledge base of adversary tactics** - [Link](https://attack.mitre.org/)
+- **MITRE ATT&CK Knowledge Base of Adversary Tactics** - [Link](https://attack.mitre.org/)
 - **Common Vulnerabilities and Exposures (CVE)**: [Link](https://cve.mitre.org/)
 - **National Vulnerability Database (NVD)**: [Link](https://nvd.nist.gov/)
 - **OWASP (Open Web Application Security Project)**: [Link](https://www.owasp.org/)

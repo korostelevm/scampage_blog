@@ -186,7 +186,9 @@ exports.loginPost = async (req, res) => {
 };
 ```
 
-The data then is formatted nicely with pretty icons and sent as a message to a Telegram chat set up by the attacker. Redirecting to `/auth/login/2` takes the user to the billing page where credit card info will be captured:
+The data then is formatted nicely with pretty icons and sent as a message to a Telegram chat set up by the attacker. 
+
+This route then redirects to `/auth/login/2` and the user is taken to the billing page where their credit card info will be captured:
 
 ```js
 [...]

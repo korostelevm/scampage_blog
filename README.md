@@ -1,6 +1,6 @@
 # How to build a Phishing Scampage
 
-There is a lot of dirty things you can do on the internet. There is disinformation, pirated movies, scams and cyber bullies, there is all you can eat pornography, spyware and even dark web assassins.
+There are a lot of dirty things you can do on the internet. There are disinformation campaigns, pirated movies, scams and cyber bullies, there is all you can eat pornography, spyware and even dubious dark web assassins.
 
 As a hosting provider, we do what is probably the dirtiest internet thing of all - we run code sent to us by total strangers.
 
@@ -32,7 +32,7 @@ There are different implementations but the shared anatomy is:
   - Discord 
   - MongoAtlas
 
-### Microsoft Scam
+### Case Study - "Microsoft Scam"
 By far the most common and probably the most crudely implemented phishing scam we see is an attack on Microsoft accounts. Just a simple login page. 
 
 <p align="center">
@@ -66,7 +66,7 @@ In all instances of this scam, the target url pointed to a `.php` file on what l
 
 In this instance `finish.php` was likely injected into the host maliciously by exploiting one of those PHP vulnerability. These `.php` files simply use php's  `mail` function to then forward the credentials to some other email set up by the attackers. 
 
-### Adobe/Netflix Scam
+### Case Study - "Adobe/Netflix"
 Another very common scam targets Adobe's document cloud.
 
 <p align="center">
@@ -239,6 +239,7 @@ exports.login3 = (req, res) => {
 ```
 That is about the end of the story, after the attacker gets these messages, they win. 
 
+## Mitigation
 
 Phishing sites are disposable and can be stood up quickly. An orchestrated email campaign can direct thousands of visitors to a fraudulent site within a short time. Props to the folks over at [Netcraft](https://netcraft.com); they're on the ball with reporting these shady sites to domain owners.
 
@@ -302,9 +303,24 @@ With that, not long after the grim discovery of the vicious attack on pizza - th
 
 While no longer hosted at the `rose-lauchheim.de` domain, Pizzeria Rose seems to still be operational in Lauchheim, Germany. According to their excellent [Google reviews](https://www.google.com/maps/place/Pizzeria+Rose%2FEiskaffee/@48.8721486,10.2482284,15z/data=!4m16!1m9!3m8!1s0x47991f83d8fbf995:0x507a55878bfb43cf!2sPizzeria+Rose%2FEiskaffee!8m2!3d48.8721486!4d10.2482284!9m1!1b1!16s%2Fg%2F1tp0cmnw!3m5!1s0x47991f83d8fbf995:0x507a55878bfb43cf!8m2!3d48.8721486!4d10.2482284!16s%2Fg%2F1tp0cmnw?entry=ttu), their pizza and pasta are delicious. The website button directs users to their [Facebook](https://www.facebook.com/profile.php?id=100063594878836).
 
+
 <p align="center"> 
     <img src="./images/food.png" width="650px"></img>
 </p>
+
+The unexpected association with pizza might be kind of funny, but it underscores a critical point: no business is immune from the reach of cyber threats. Even a small local business like Pizzeria Rose can become an unwitting participant in a larger malicious campaign. It is a reminder that that cybersecurity is not just a concern for large corporations.
+
+If you're a business owner, or interested in learning more about how to protect yourself or your organization from cyber threats, there are some excellent resources available on vulnerabilities, attacks, and mitigation tactics:
+
+- **Snyk Vulnerability Database** - [Link](https://security.snyk.io/ )
+- **MITRE ATT&CK knowledge base of adversary tactics** - [Link](https://attack.mitre.org/)
+- **Common Vulnerabilities and Exposures (CVE)**: [Link](https://cve.mitre.org/)
+- **National Vulnerability Database (NVD)**: [Link](https://nvd.nist.gov/)
+- **OWASP (Open Web Application Security Project)**: [Link](https://www.owasp.org/)
+- **Exploit Database**: [Link](https://www.exploit-db.com/)
+- **Have I Been Pwned**: [Link](https://haveibeenpwned.com/)
+- **NIST Cybersecurity Framework**: [Link](https://www.nist.gov/cyberframework)
+
 
 
 <details>

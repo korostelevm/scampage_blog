@@ -66,7 +66,7 @@ In all instances of this scam, the target url pointed to a `.php` file on what l
 
 In this instance `finish.php` was likely injected into the host maliciously by exploiting one of those PHP vulnerability. These `.php` files simply use php's  `mail` function to then forward the credentials to some other email set up by the attackers. 
 
-### Case Study - "Adobe/Netflix"
+### Case Study - "Adobe/Netflix Scam"
 Another very common scam targets Adobe's document cloud.
 
 <p align="center">

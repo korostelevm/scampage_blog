@@ -278,7 +278,7 @@ Google's result seemed to find a site that lists some names of banks. Looks rele
 
 `https://rose-lauchheim.de/zmcheldj/scampages.html` as well as the root domain `https://rose-lauchheim.de` are down.
 
-No luck for `scampages.html` on the Wayback Machine. But the root domain: 
+No luck for `scampages.html` on the Wayback Machine. I did find that the root domain was captured in 2022: 
 
 <p align="center">
     <img src="./images/pizza.png" width="650px"></img>

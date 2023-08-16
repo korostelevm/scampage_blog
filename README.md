@@ -296,7 +296,7 @@ There were multiple repositories listing scampages for different targets with an
 
 I reported these. Hopefully GitHub takes them down quickly, but unfortunately until problems with disposable accounts are mitigated, they will probably be back. 
 
-With that, not long after the discovery of the vicious attack on pizza - the mystery led to a dead end. 
+With that, not long after the grim discovery of the vicious attack on pizza - the mystery led to a dead end. 
 
 ## The good news
 
